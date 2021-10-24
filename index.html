@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RegisterForm</title>
+        <link rel="stylesheet" type="text/css" href="RegisterForm.css">
+     </head>
+     <style>
+         .{
+             margin: 0;
+             padding: 0;
+             font-family: sans-serif;
+             box-sizing: border-box;
+         }
+         body{
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+             height: 50vh;
+             background: url("pexels-photo-66997.jpeg");
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+         }
+         form{
+             margin-top: 50px;
+             text-align: center;
+
+         }
+         input{
+             display: block;
+             width: 350px;
+             height: 40px;
+             margin: 20px;
+             border: none;
+             outline: none;
+             font-size: 20px;
+             border-bottom: 1px solid black;
+         }
+         button{
+             width:350px;
+             height:40px;
+             font-size: 20px;
+             background-color: blue;
+             border: none;
+             color: white;
+             margin-top: 20px;
+         }
+         form h1{
+             margin-bottom: 30px;
+         }
+
+     </style>
+     <body>
+         <form>
+             <h1>RegisterForm</h1>
+             <input type="text" name="" placeholder="Username">
+             <input type="text" name="" list="tech" placeholder="Technology">
+             <datalist id="tech">
+                 <option>HTML</option>
+                 <option>CSS</option>
+                 <option>JavaScript</option>
+             </datalist>
+             <input type="email" name="" placeholder="Email">
+             <input type="password" name="" placeholder="password">
+             <input type="password" name="" placeholder="Confirm password">
+             <button type="submit">RegisterForm</button>
+         </form>
+     </body>
+</html>
